@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    background-color: #151515;
+    color: #58FAF4;    
+}
+h2 {
+    text-align: center;
+    background-color: #151515;
+    color: #58FAF4;
+}
+
+body {
+    background-color: #151515;
+    color: #58FAF4;
+}
+
+table {
+    text-align: center;
+    background-color: #151515;
+    color: #fff;
+}
+
+span {
+    color: #58FAF4;    
+}
