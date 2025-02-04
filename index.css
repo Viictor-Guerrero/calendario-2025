@@ -1,25 +1,29 @@
 h1 {
     text-align: center;
-    background-color: #151515;
-    color: #58FAF4;    
+    background-color: #0D1B30;
+    color: #fff;    
 }
 h2 {
     text-align: center;
-    background-color: #151515;
-    color: #58FAF4;
+    background-color: #0D1B30;
+    color: #fff;
 }
 
 body {
-    background-color: #151515;
+    background-color: #0D1B30;
     color: #58FAF4;
 }
 
 table {
     text-align: center;
-    background-color: #151515;
+    background-color: #0D1B30;
     color: #fff;
 }
 
 span {
-    color: #58FAF4;    
+    color: #fff;
+}
+
+hr {
+    color: #BE8019;
 }
