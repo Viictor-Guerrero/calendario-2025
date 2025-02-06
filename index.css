@@ -1,9 +1,13 @@
 h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
     text-align: center;
-    margin-top: 15px;
-    background-color: #0D1B30;
-    color: #fff;    
-}
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    overflow: hidden; /* Oculta o texto fora da área visível */
+    display: inline-block;
+    color: #fff;
+    animation: slide 7s linear infinite; /* Animação contínua */
+  }
 
 h2 {
     text-align: center;
