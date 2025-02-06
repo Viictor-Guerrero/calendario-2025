@@ -47,6 +47,15 @@
         .responsive-table {
             overflow-x: auto;
         }
+    /* Definindo a animação */
+    @keyframes slide {
+      0% {
+        transform: translateX(-200%); /* Começa fora da tela à esquerda */
+      }
+      100% {
+        transform: translateX(100%); /* Move até fora da tela à direita */
+      }
+    }
     </style>
 </head>
 <body>
