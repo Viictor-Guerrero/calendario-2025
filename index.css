@@ -2,11 +2,11 @@ h1 {
     font-family: Arial, sans-serif;
     font-size: 2em;
     text-align: center;
-    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
-    overflow: hidden; /* Oculta o texto fora da área visível */
+    white-space: nowrap;
+    overflow: hidden;
     display: inline-block;
     color: #fff;
-    animation: slide 7s linear infinite; /* Animação contínua */
+    animation: slide 7s linear infinite;
   }
 
 h2 {
@@ -35,17 +35,17 @@ hr {
 }
 
 button {
-    border: 3px solid #fff; /* Borda de 2px de largura com cor azul */
-    background-color: #BE8019; /* Cor de fundo azul */
-    color: white; /* Cor do texto (branca) */
-    padding: 5px 10px; /* Espaçamento interno (superior/inferior, esquerdo/direito) */
-    font-size: 16px; /* Tamanho da fonte */
-    border-radius: 5px; /* Bordas arredondadas */
-    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
-    transition: background-color 0.3s, border-color 0.3s; /* Efeito suave na cor ao passar o mouse */
+    border: 3px solid #fff;
+    background-color: #BE8019;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
 }
   
   button:hover {
-    background-color: #0D1B30; /* Cor de fundo ao passar o mouse */
-    border-color: #fff; /* Cor da borda ao passar o mouse */
-  }
+    background-color: #0D1B30;
+    border-color: #fff;
+}
