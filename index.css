@@ -33,3 +33,19 @@ span {
 hr {
     color: #BE8019;
 }
+
+button {
+    border: 3px solid #fff; /* Borda de 2px de largura com cor azul */
+    background-color: #BE8019; /* Cor de fundo azul */
+    color: white; /* Cor do texto (branca) */
+    padding: 5px 10px; /* Espaçamento interno (superior/inferior, esquerdo/direito) */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    transition: background-color 0.3s, border-color 0.3s; /* Efeito suave na cor ao passar o mouse */
+}
+  
+  button:hover {
+    background-color: #0D1B30; /* Cor de fundo ao passar o mouse */
+    border-color: #fff; /* Cor da borda ao passar o mouse */
+}
